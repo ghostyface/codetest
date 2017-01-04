@@ -1,0 +1,98 @@
+/* reset font-size so 1em = 10px */
+html {
+    font-size: 100.01%;
+}
+body {
+    font-size: 62.5%;
+}
+.container {
+	background-color: #fff;
+	border: 5px solid #ebebeb;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	height: 461px;
+	width: 690px;
+}
+.progress-bar {
+	height: 26px;
+	margin: 21px auto 0;
+	position: relative;
+	text-align: center;
+	width: 618px;
+}
+.progress-bar .left-half {
+	background-color: #99d2ff;
+	float: left;
+	height: 100%;
+	width: 309px;
+}
+.progress-bar .right-half {
+	background-color: #eaeaea;
+	float: left;
+	height: 100%;
+	width: 309px;
+}
+.progress-bar p {
+	font-size: 1.4em;
+	left: 41%;
+	position: absolute;
+	top: -10px;
+}
+h5 {
+	clear: left;
+    color: #828282;
+    margin: 18px auto 0;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+.form-box {
+	height: 356px;
+	width: 100%;
+}
+.form-img {
+	background: url('../img/content-upgrade.gif') no-repeat left top;
+	float: left;
+    height: 328px;
+    width: 245px;
+    margin: 6px 0 0 27px;
+}
+.form {
+	margin-left: 311px;
+	text-align: left;
+	width: 335px;
+}
+.form p {
+	font-size: 2.4em;
+	font-weight: 300;
+	line-height: 1.5em;
+    padding-top: 10px;
+}
+.form p strong {
+	font-weight: 700;
+}
+form {
+	padding: 4px 0 0 2px;
+}
+input {
+	border: 1px solid #dddddd;
+	border-radius: 2px;
+	font-size: 1.5em;
+    font-weight: 300;
+    height: 40px;
+    margin-bottom: 9px;
+    padding-left: 13px;
+    width: 317px;
+}
+input[type=button] {
+	background-color: #46a806;
+	border: 1px solid #2d7100;
+	color: #fff;
+	font-size: 1.8em;
+	font-weight: 700;
+	height: 56px;
+	margin-top: 3px;
+	padding: 0;
+	text-align: center;
+	width: 335px;
+}
